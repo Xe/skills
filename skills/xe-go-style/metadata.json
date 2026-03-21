@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Comprehensive guide to Xe Iaso's Go style and best practices covering project organization with cmd/, internal/, web/, and gen/ directories, CLI development using flagenv.Parse() and flag.Parse() with kebab-case flags and github.com/google/subcommands for subcommand handling, robust error handling patterns including sentinel errors, %w wrapping for context preservation, errors.Join for validation errors, and errors.Is/As for type checking with custom error types supporting LogValue() methods, logging conventions using log/slog with JSON output to stderr, configurable -slog-level flags, standardized 'err' key conventions, and LogValue() for complex type serialization, HTTP patterns emphasizing middleware chaining, context-aware HTTP clients, and server lifecycle management with errgroup, table-driven testing methodology using tt loop variables with t.Helper, t.Parallel, and httptest packages for isolated testing, and general code style principles including gofmt formatting compliance, camelCase for internal variables, PascalCase for exported identifiers, and snake_case file naming conventions.",
+  "references": [
+    "https://pkg.go.dev/github.com/facebookgo/flagenv",
+    "https://pkg.go.dev/github.com/google/subcommands",
+    "https://pkg.go.dev/log/slog",
+    "https://pkg.go.dev/net/http"
+  ]
+}

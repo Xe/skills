@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Comprehensive guide to transforming unstructured notes into polished blog posts in Xe Iaso's distinctive voice covering hard stylistic rules (successive paragraphs must not start with identical letters, writing for technical peers rather than beginners, avoiding corporate tone, openly admitting uncertainty, and explicitly discussing tradeoffs), characteristic voice elements (casual intensifiers, direct emotional expression, self-deprecating humor, em dashes for emphasis, rhetorical questions, and signature Xe-isms like 'cursed' and 'Just Works™'), content structure patterns for experience narratives, critiques, tutorials, and industry commentary, opening strategies including personal memory hooks, historical analogies, direct tension, pop culture references, and satirical warnings, character dialogue system featuring Cadey, Aoi, Mara, and Numa with Conv and ConvP JSX components for interactive storytelling, signature devices such as friend reaction lists, napkin math calculations, satirical warning boxes, expandable details sections, blockquote citations, and pop culture anchoring, MDX format implementation for xeiaso.net and Tigris company blog publishing, and a structured 7-step writing process with integrated reference files covering voice-tone, story-circle, emotional-personal, fiction-mythic, humor-satire, and spirituality modes.",
+  "references": [
+    "voice-tone",
+    "story-circle",
+    "emotional-personal",
+    "fiction-mythic",
+    "humor-satire",
+    "spirituality"
+  ]
+}

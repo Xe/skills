@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Comprehensive guide to creating reusable, composable templ UI components that follow principled design patterns. Covers component fundamentals including props and children handling, composition patterns for building complex UIs from simpler components, and practical reusable component implementations like Card and WithError wrapper components. Establishes API design rules for maintainable components: keeping surface area small and focused, ensuring all options are properly typed, prioritizing composition over inheritance, avoiding hidden side effects, and maintaining stable contracts for long-term reliability. Includes component checklists for validating well-designed components and best practices for building component libraries that scale.",
+  "references": ["https://templ.guide/component-composition/", "https://pkg.go.dev/github.com/a-h/templ"]
+}

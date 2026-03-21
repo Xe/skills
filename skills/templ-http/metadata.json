@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Comprehensive guide for integrating templ components with Go's net/http server. Covers minimal integration patterns including parsing request input, building view models, rendering templ components using r.Context(), and handling errors at the framework boundary. Explores routing and request data handling with http.NewServeMux, method branching, accessing input from multiple sources (query parameters, form data, URL paths), status discipline, and implementing the Post/Redirect/Get pattern for safe form submissions. Details production patterns including middleware for cross-cutting concerns like authentication and logging, component-based error page rendering, static file serving, and the separation of concerns with thin HTTP handlers delegating business logic to service layers.",
+  "references": [
+    "https://pkg.go.dev/net/http",
+    "https://templ.guide/server-side-rendering/"
+  ]
+}

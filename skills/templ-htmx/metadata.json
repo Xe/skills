@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Comprehensive guide to building interactive hypermedia-driven web applications using templ and HTMX. Covers the complete workflow from setup through advanced patterns, including mounting HTMX assets, including the HTMX script in layout templates, and implementing hx-* attributes for dynamic interactions. Details core HTMX controls (hx-get, hx-post, hx-target, hx-swap, hx-trigger, hx-indicator) for building request-response interactions without full page reloads. Explores advanced server-side patterns including detecting HTMX requests with htmx.Is(r), out-of-band updates for updating multiple page regions simultaneously, response headers like HX-Trigger and HX-Redirect for server-side control, and progressive enhancement strategies for resilient user experiences. Covers the within.website/x/web/htmx package integration.",
+  "references": ["https://htmx.org/docs/", "https://hypermedia.systems/"]
+}

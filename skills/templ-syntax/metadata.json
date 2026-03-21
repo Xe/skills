@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Comprehensive guide to templ component syntax and Go integration. Covers the fast path for building components including defining typed parameters, rendering dynamic values with expression syntax, composing components by invoking other component functions, and leveraging Go control flow directly in markup. Details core syntax rules including automatic HTML escaping for safety, dynamic attribute assignment with class={} and conditional attributes with disabled?={}, accessing children through the special { children... } expression, component composition as function calls, and URL-safe rendering with templ.URL for href attributes. Explores common patterns and real-world examples including creating reusable Card components with flexible children, building user lists with conditionals and loops for data rendering, and best practices for type-safe, composable component hierarchies.",
+  "references": [
+    "https://templ.guide",
+    "https://templ.guide/syntax-and-usage/"
+  ]
+}
