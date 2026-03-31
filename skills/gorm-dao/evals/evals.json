@@ -1,0 +1,26 @@
+{
+  "skill_name": "gorm-dao",
+  "evals": [
+    {
+      "id": 0,
+      "name": "notification-model",
+      "prompt": "I need to add a new Notification model to the mi service with a foreign key to Member, and DAO methods to create one and list unread notifications",
+      "expected_output": "A notification.go model file and updated dao.go with CreateNotification and UnreadNotifications methods, following the existing DAO pattern",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "many-to-many-events",
+      "prompt": "Add a many-to-many relationship between Events and Members so we can track who's attending each event",
+      "expected_output": "Updated Event model with Members association, a join table or GORM many2many tag, and DAO methods for adding/listing attendees",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "new-service-postgres",
+      "prompt": "I'm starting a new service called logbook that needs to store entries in Postgres with GORM -- set up the models package with a DAO",
+      "expected_output": "A new cmd/logbook/models/ package with a DAO struct, Postgres connection, Entry model, and basic CRUD methods following the DAO pattern",
+      "files": []
+    }
+  ]
+}

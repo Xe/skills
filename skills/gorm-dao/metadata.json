@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Xe Iaso",
+  "date": "March 2026",
+  "abstract": "Guide to writing Go data access layers using GORM organized around the DAO (Data Access Object) pattern. Covers DAO struct design with constructor-based AutoMigrate and context-propagating methods, model definition with struct tags and ID strategies, file organization grouping methods by entity, query patterns including eager loading with Joins and Preload, pagination, existence checks, and transactions with both manual and closure-based rollback. Includes observability setup with slog-gorm and gorm-prometheus, protobuf conversion patterns, database connection for PostgreSQL and SQLite including the ncruces pure-WASM driver, and testing with in-memory SQLite.",
+  "references": [
+    "https://gorm.io/docs/",
+    "https://pkg.go.dev/gorm.io/gorm",
+    "https://github.com/orandin/slog-gorm",
+    "https://github.com/ncruces/go-sqlite3"
+  ]
+}
