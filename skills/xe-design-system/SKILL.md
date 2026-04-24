@@ -1,5 +1,5 @@
 ---
-name: Xe Iaso Design System
+name: xe-design-system
 description: A warm, Gruvbox-rooted design system derived from xeiaso.net. Use for personal-blog, technical-educator, or character-driven content that wants serif headlines, parchment surfaces, and chat-bubble layouts. Distinctive: magenta inverted link hovers, boxy 2px-radius sticker avatars, no gradients except the SponsorCard top rule.
 ---
 
